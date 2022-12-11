@@ -2,6 +2,7 @@
 
 int main(void)
 {
-    printf("HelloWorld");
-    return 0;
+  int juice = 198, milk = 138, money = 1000;
+  money = 1000 - (juice + (milk * 2));
+  printf("%d\n", money);
 }
