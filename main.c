@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-int sum(void);
+int sum(int);
 
 int main(void)
 {
-  sum();
+  int value;
+  value = sum(100);
+  printf("%d\n", value);
   return 0;
 }
 
-int sum(void)
+int sum(int number)
 {
-  printf( "%d\n", (100 + 100) * 100 );
-  return 0;
+  // printf( "%d\n", (number + number) * number );
+  return (number + number) * number;
 }
